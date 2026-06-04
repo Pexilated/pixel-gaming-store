@@ -23,3 +23,49 @@ footer{text-align:center;padding:30px;color:#888}
   .hero h1{font-size:48px}
   .product-img{height:220px}
 }
+
+
+
+
+
+
+
+
+
+
+#products .grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+  gap: 18px !important;
+}
+
+#products .card {
+  min-width: 0 !important;
+  padding: 16px !important;
+}
+
+#products .product-img {
+  width: 100% !important;
+  height: 160px !important;
+  object-fit: cover !important;
+  border-radius: 12px !important;
+  display: block !important;
+  margin-bottom: 14px !important;
+}
+
+#products .card h3 {
+  font-size: 18px !important;
+}
+
+#products .card p {
+  font-size: 14px !important;
+}
+
+@media(max-width:850px){
+  #products .grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  #products .product-img {
+    height: 220px !important;
+  }
+}
