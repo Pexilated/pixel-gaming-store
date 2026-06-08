@@ -9,17 +9,36 @@ nav a{color:#ccc;text-decoration:none}
   display:flex;
   flex-direction:column;
   justify-content:center;
-  align-items:center;
-  text-align:center;
+  align-items:flex-start;
+  text-align:left;
+  padding-left:80px;
 
   background:
-    linear-gradient(rgba(11,11,18,.65), rgba(11,11,18,.85)),
+    linear-gradient(rgba(11,11,18,.55), rgba(11,11,18,.80)),
     url("gaming-bg.jpg");
 
   background-size:cover;
   background-position:center;
   background-repeat:no-repeat;
 }
+
+.hero h1{
+  font-size:72px;
+  line-height:0.9;
+  font-weight:900;
+  margin-bottom:15px;
+}
+
+.hero h1 span{
+  color:#8b5cf6;
+}
+
+.hero p{
+  max-width:420px;
+  color:#ddd;
+  margin-bottom:20px;
+}
+
 .btn{background:#7c5cff;color:#fff;padding:14px 24px;border-radius:999px;text-decoration:none;font-weight:bold;display:inline-block}
 .section{padding:80px 7%}
 .section h2{font-size:42px;margin-bottom:30px}
