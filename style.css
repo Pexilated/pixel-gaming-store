@@ -4,9 +4,22 @@ header{display:flex;justify-content:space-between;padding:22px 7%;border-bottom:
 .logo{font-weight:900;font-size:28px;color:#7c5cff}
 nav{display:flex;gap:20px}
 nav a{color:#ccc;text-decoration:none}
-.hero{min-height:80vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;background:linear-gradient(135deg,#111,#1b1035)}
-.hero h1{font-size:70px;margin-bottom:20px}
-.hero p{max-width:600px;color:#bbb;margin-bottom:25px}
+.hero{
+  min-height:80vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+
+  background:
+    linear-gradient(rgba(11,11,18,.65), rgba(11,11,18,.85)),
+    url("gaming-bg.jpg");
+
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+}
 .btn{background:#7c5cff;color:#fff;padding:14px 24px;border-radius:999px;text-decoration:none;font-weight:bold;display:inline-block}
 .section{padding:80px 7%}
 .section h2{font-size:42px;margin-bottom:30px}
